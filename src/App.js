@@ -24,6 +24,7 @@ class App extends Component {
     this.setState({
       todosItem: event.target.value,
     });
+    console.log(this.state.todosItem);
   };
 
   render() {
